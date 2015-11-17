@@ -407,7 +407,7 @@ public class LogUtils {
         return sb;
     }
 
-    //{FihTdcCode@20141210 WenYang, Add for 8926PFAL-880, Add url link parser
+    //{ MDY
     public static int logFeature(String featureName, String format,
             Object... args) {
         if (isLoggable(TAG, DEBUG)) {
@@ -421,7 +421,7 @@ public class LogUtils {
         }
         return 0;
     }
-    //}FihTdcCode@20141210 WenYang, Add for 8926PFAL-880, Add url link parser
+    //} MDY
     
     //{MDY
     private static final String MY_TAG = "Emailwy";
