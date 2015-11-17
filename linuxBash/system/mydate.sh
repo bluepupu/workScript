@@ -7,7 +7,7 @@ if [ "$1" == "" ];then
 fi
 
 millionSeconds=${1:0:10}
-otherPart=${1:9:3}
+otherPart=${1:10:3}
 
 myFormat=`date +%Y/%m/%d\ %H:%M:%S -d\@$millionSeconds`".$otherPart"
 echo $myFormat
